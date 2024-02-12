@@ -1,0 +1,31 @@
+1. data.txt filedan hamma contentlarni o'qib olib sonlarni(string ko'rinishida) 
+numbers.txt filega new line bilan yozish va eng ohirgi lineda sonlarni jami
+summasini yozish. So'zlarni qaysiki faqat A yoki O yoki a yoki o harflari qatnashgan
+so'zlarni alohida words.txt filega yozish new line bilan
+
+2. employees.json filedan hamma employees larni o'qib olib. orderByAge.txt filega age 
+bo'yicha sort(kichkinadan kattaga) qilib yozilsin. Top 3ta oyligi eng yuqori employeeni
+topSalaryEmployees.txt filega yozilsin.
+2ta filega ham yozilish formati(
+"first_name": "Adam" "second_name": "Johns" "salary": 2500 "experience": 3 "age": 21
+"first_name": "Alice" "second_name": "Smith" "salary": 2800 "experience": 5 "age": 25
+)
+
+3. Terminaldan people count kiritaman.Va undan keyin name, sex, job, age so'ridi.
+Hammasini kiritib bo'lganimdan keyin yana so'ridi faqat males | females | all shunga 
+qarab manga male yoki female yoki hammasini chiqarib berishi kerak
+
+4. file yaratish kerak.Terminaldan fileName va recomendationCount kiritiladi. Agar 
+fileName daka file bo'masa yaratib qo'yadi.Agar unaqa file bo'sa manga 
+recomendationCountga nechi kiritilgan bo'lsa o'shancha name rekommend(recommend logikasi 
+fileName+randomraqam) qilishi kerak. Shunaqa namelik file yarata olasan deb.Pragramma 1ta
+file yaratmaguncha ishlashi kerak.
+
+5. Student degan struct name, grades(arrays of int),course. calculateAverage degan method
+yozilsin u studentning o'rtacha grade ini hisoblaydi. Agar averageGrade 60dan kichkina
+bo'lsa u failed bo'lgan hisoblanadi aksi bo'lsa passed. U fail yoki passed bo'lgani haqida
+result.txt filega yo'zing. (You are failed yoki You are passed)
+
+
+NOTE: errorlarni hamma joyda to'g'ri handle qilish i etiborli bo'lib yozish kerak. 
+Hammasi ball beriladigan vaqtda inobatga olinadi.
